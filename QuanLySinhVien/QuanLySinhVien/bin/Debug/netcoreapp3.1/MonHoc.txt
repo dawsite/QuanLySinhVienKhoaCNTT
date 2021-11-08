@@ -1,0 +1,6 @@
+002|Cơ sở kỹ thuật lập trình|3|1221
+003|Cấu trúc dữ liệu|3|1221
+001|Cơ sở dữ liệu|4|1223
+004|Hệ điều hành|3|1222
+002|Cơ sở kỹ thuật lập trình|3|1223
+001|Cơ sở dữ liệu|4|1221

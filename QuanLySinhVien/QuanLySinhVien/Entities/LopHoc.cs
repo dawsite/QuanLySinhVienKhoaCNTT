@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace QuanLySinhVien.Entities
+{
+    //Khai báo các thông tin liên quan đến lớp học
+    public class LopHoc
+    {
+        #region Các thành phần dữ liệu
+        private string maLop;
+        private string tenLop;
+        private string chuyenNganh;
+        #endregion
+
+        #region Các thuộc tính
+        public string MaLop
+        {
+            get { return maLop; }
+            set
+            {
+                if (value !="")
+                {
+                    maLop = value;
+                }
+            }
+        }
+        public string TenLop
+        {
+            get { return tenLop; }
+            set
+            {
+                if (value != "")
+                {
+                    tenLop = value;
+                }
+            }
+        }
+        public string ChuyenNganh
+        {
+            get { return chuyenNganh; }
+            set
+            {
+                if (value != "")
+                {
+                    chuyenNganh = value;
+                }
+            }
+        }
+        #endregion
+
+        #region Các thương thức  
+        //Phương thức khởi tạo không tham số
+        public LopHoc() { }
+        //Phương thức thiết lập sao chép
+        public LopHoc(LopHoc lop)
+        {
+            this.maLop = lop.maLop;
+            this.tenLop = lop.tenLop;
+            this.chuyenNganh = lop.chuyenNganh;
+        }
+        //Phương thức khởi tạo có tham số
+        public LopHoc(string malop, string tenlop, string chuyennganh)
+        {
+            this.maLop = malop;
+            this.tenLop = tenlop;
+            this.chuyenNganh = chuyennganh;
+        }
+        #endregion
+    }
+}

@@ -1,0 +1,12 @@
+125201|SEK18.1|Công nghệ web
+125202|SEK18.2|Công nghệ web
+125203|SEK18.3|Công nghệ web
+125206|SEK18.6|Kiểm thử phần mềm
+101201|IT18.1|Đồ họa
+101202|IT18.2|Mạng máy tính
+101203|IT18.3|IoT
+101204|IT18.4|Khoa học dữ liệu
+101205|IT18.5|Xử lý ngôn ngữ
+101206|IT18.6|Nhận dạng hình ảnh
+125204|SEK18.4|Công nghệ web
+125205|SEK18.5|Công nghệ di động
